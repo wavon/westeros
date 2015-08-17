@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+@font-face {
+    font-family: 'dobkinplain';
+    src: url('DobkinPlain-webfont.eot');
+    src: url('DobkinPlain-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DobkinPlain-webfont.woff') format('woff'),
+         url('DobkinPlain-webfont.ttf') format('truetype'),
+         url('DobkinPlain-webfont.svg#dobkinplain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background-image: url(../images/map-westeros.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  font-size: 16px;
+  color: rgb(0,81,133);
+  margin: 0;
+}
+
+#header {
+  margin-top: 2em;
+}
+
+#footer {
+  clear: both;
+  padding-top: 10px;
+  margin: 0 auto 4em auto;
+}
+
+.sigil {
+  width: 230px;
+  position: absolute;
+  top: 1em;
+  left: 3.5em;
+  border-radius: 50%;
+}
+
+.pageTitle {
+  margin: 0;
+  background-color: rgba(91,191,237,.3);
+  padding: 26px 0;
+}
+
+h1 {
+  font-family: 'dobkinplain';
+  font-size: 5em;
+  text-align: left;
+  color: rgb(188, 155, 106);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 320px;
+}
+
+h2, h3, h4 {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: rgb(234,223,196);
+  text-align: left;
+  margin-left: 320px;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: left;
+}
+#footer p {
+  padding-left: 3.5em;
+  margin-top: 1em;
+}
+
+.memoryboard {
+  margin: 2em 3em;
+}
+
+/* cardback display */
+.facedown {
+  width: 225px;
+  height: 315px;
+  margin: 8px;
+  display: inline-block;
+  float: left;
+  border: 1px solid rgb(0,81,133);
+  border-radius: 6px; 
+  background-image: url(../images/throne.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* faceup */
+.faceup {
+  width: 225px;
+}
+/* faceup - image display */
+.cardImage {
+  width: 225px;
+  height: 315px;
+  margin: 8px;
+  display: inline-block;
+  float: left;
+  border: 1px solid rgb(0,81,133);
+  border-radius: 6px;
+}
+
+.cardImage img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* faceup - display quote text over color background */
+.cardQuote {
+  width: 225px;
+  height: 315px;
+  margin: 8px;
+  display: inline-block;
+  float: left;
+  background-color: rgb(5,41,74);
+  border: 1px solid rgba(91,191,237,.7);
+  border-radius: 6px;
+}
+/* style quote text */
+.quote {
+  font-family: 'Open Sans';
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.8em;
+  text-align: center;
+  padding: 10%;
+}
+
+.matched {
+  visibility: hidden;
+}
+
+.resetButton {
+  margin: 2em auto 2em 2em;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgb(91,191,237);
+  color: rgb(0,33,87);
+  border-radius: 8px;
+  position: inherit;
+}
